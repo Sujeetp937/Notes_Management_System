@@ -1,10 +1,10 @@
-# 📝 Noteflow — Notes Management System
+#  Noteflow — Notes Management System
 
 A full-stack Notes Management System built with **React**, **Express.js**, **MongoDB**, and **Tailwind CSS**.
 
 ---
 
-## ✨ Features
+##  Features
 
 ### Core
 - **Create** notes with title, content, tags, and color
@@ -15,15 +15,15 @@ A full-stack Notes Management System built with **React**, **Express.js**, **Mon
 - **View** individual notes in the editor panel
 
 ### Bonus
-- 🏷️ **Tags/Categories** — Add multiple tags to notes, filter by tag
-- 📌 **Pin notes** — Pinned notes appear at the top
-- 💾 **Auto-save** — Changes are automatically saved after a short delay
-- 🎨 **Color labels** — 8 color options for visual organization
-- 📱 **Responsive** — Works on mobile, tablet, and desktop
+-  **Tags/Categories** — Add multiple tags to notes, filter by tag
+-  **Pin notes** — Pinned notes appear at the top
+-  **Auto-save** — Changes are automatically saved after a short delay
+-  **Color labels** — 8 color options for visual organization
+-  **Responsive** — Works on mobile, tablet, and desktop
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -35,7 +35,7 @@ A full-stack Notes Management System built with **React**, **Express.js**, **Mon
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js 18+
@@ -51,10 +51,10 @@ npm run install:all
 ### 2. Configure Environment
 
 ```bash
-cp backend/.env.example backend/.env
+
 ```
 
-Edit `backend/.env`:
+Create`backend/.env`:
 ```env
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/notesdb
@@ -166,7 +166,7 @@ notes-app/
 
 ---
 
-## 🗃️ Database Schema
+##  Database Schema
 
 ```javascript
 {
@@ -187,7 +187,7 @@ notes-app/
 
 ---
 
-## 🎯 Design Decisions
+##  Design Decisions
 
 - **Auto-save**: Debounced 1.2s delay to avoid excessive API calls while typing
 - **Context + useReducer**: Lightweight global state without Redux overhead
@@ -197,7 +197,7 @@ notes-app/
 
 ---
 
-## 📸 UI Overview
+##  UI Overview
 
 - **3-panel layout**: Sidebar (filters/tags) + Notes list + Editor
 - **Responsive**: Panels collapse on mobile with hamburger navigation

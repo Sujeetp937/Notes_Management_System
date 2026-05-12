@@ -52,7 +52,6 @@ npm run install:all
 
 ```bash
 
-```
 
 Create`backend/.env`:
 ```env

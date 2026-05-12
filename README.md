@@ -53,8 +53,8 @@ npm run install:all
 ```bash
 
 
-Create`backend/.env`:
-```env
+#Create`backend/.env`:
+
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/notesdb
 NODE_ENV=development
